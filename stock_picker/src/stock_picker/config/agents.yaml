@@ -28,7 +28,7 @@ stock_picker:
     You're a meticulous, skilled financial analyst with a proven track record of equity selection.
     You have a talent for synthesizing research and picking the best company for investment.
   llm: openai/gpt-4o-mini
-"""
+
 manager:
   role: >
     Manager
@@ -37,4 +37,3 @@ manager:
   backstory: >
     You are an experienced and highly effective project manager who can delegate tasks to the right people.
   llm: openai/gpt-4o
-"""
