@@ -22,7 +22,8 @@ def run():
     }
     
     try:
-        MyCrew().crew().kickoff(inputs=inputs)
+        result=MyCrew().crew().kickoff(inputs=inputs)
+        print(result.raw)
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")
 
