@@ -8,7 +8,6 @@ debater:
     The motion is: {motion}
   llm: openai/gpt-4o-mini
 
-
 judge:
   role: >
     Decide the winner of the debate based on the arguments presented
